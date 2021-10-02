@@ -12,9 +12,7 @@
 </head>
 <body>
   <!-- Navigation Section -->
-  <header>
-    <%- include('./components/header.ejs'); %>
-  </header>
+  
 
  <div class="container">
   <h1>Hello, Welcome to the <%= title %> page</h1>
@@ -22,10 +20,12 @@
  </div>
 
  <!-- Bottom Nav -->
- 
-<footer>
-  <%- include('./components/footer.ejs'); %>
-</footer>
+ <nav class="navbar fixed-bottom navbar-light bg-light">
+  <div class="container-fluid">
+  <h6>&copy; Copyright - COMP229 - S2021 - Sindhu Binil</h6>
+  </div>
+</nav>
+
   <!-- JavaScript Section -->
   <script src="/jquery/dist/jquery.min.js"></script>
   <script src="/bootstrap/dist/js/bootstrap.min.js"></script>

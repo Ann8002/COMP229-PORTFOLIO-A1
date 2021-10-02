@@ -35,7 +35,7 @@ router.get('/services', function(req, res, next)
 /* GET contact page. */
 router.get('/contact', function(req, res, next) 
 {
-  res.render('index', { title: 'Contact Me', page: 'contact' });
+  res.render('index', { title: 'My Contact info', page: 'contact' });
 });
 
 
